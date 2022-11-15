@@ -64,4 +64,8 @@ input:hover{
     transition-delay:0.3s;
     transition-duration:0.5s;
 }
+body{
+    max-width:1000px;
+    text-align:center;
+}
 
