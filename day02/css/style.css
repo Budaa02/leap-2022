@@ -1,0 +1,67 @@
+input{
+    transition-duration: 0.5s;
+    transition-delay:0.1s;
+    transition-timing-function: linear;
+    width:40px;
+    border-radius: 30%;
+}
+input:hover{
+    width:100px;
+}
+.bottom{
+    background:url(../images/search.png);
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size:20px;
+    padding-left:20px
+}
+.back{
+    position: absolute;
+}
+.back_1{
+    border:1px solid black;
+    height:500px;
+    width: 500px;
+    position: relative;
+}
+.back:hover{
+    top:0px;
+    left:0px;
+}
+.back_2{
+    height:100px;
+    width:100px;
+    border:1px solid red;
+    top:250px;
+    left:250px;
+    background-color:blanchedalmond;
+}
+.back_3{
+    height:100px;
+    width:100px;
+    border:1px solid red;
+    left:100px;
+    top:250px;
+    background-color:blanchedalmond;
+}
+.back_4{
+    height:100px;
+    width:100px;
+    border:1px solid red;
+    top:100px;
+    left:100px;
+    background-color:blanchedalmond;
+}
+.back_5{
+    height:100px;
+    width:100px;
+    border:1px solid red;
+    left:250px;
+    top:100px;
+    background-color:blanchedalmond;
+}
+.back{
+    transition-delay:0.3s;
+    transition-duration:0.5s;
+}
+
