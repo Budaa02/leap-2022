@@ -14,25 +14,30 @@ p{
 @media only screen and (max-width: 1200px) {
     body::before{
         background-color:red;
+        content:"xl (extra large)";
     }
 }
 @media only screen and (max-width:992px) {
-    body{
+    body::before{
         background-color:brown;
+        content:"lg (large)";
     }
 }
 @media only screen and (max-width:768px) {
-    body{
+    body:before{
         background-color:orange;
+        content:"md (medium)"
     }   
 }
 @media only screen and (max-width:576px) {
-    body{
+    body::before{
         background-color:pink;
+        content:"sm  (small)";
     }   
 }
 @media only screen and (max-width:575px) {
-    body{
+    body::before{
         background-color:white;
+        content:"xs ( extra small )";
     }   
 }

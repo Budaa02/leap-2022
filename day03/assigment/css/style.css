@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.face img {
+    border-radius:20px;
+    width: 16%;
+    height: 300px;
+}
+.face_01{
+    display:flex;
+    justify-content: space-between;
+}
+
+.second_01 img{
+    width:25%;
+}
+.box{
+    display: flex;
+}
+.second{
+    display:flex;
+    margin-top:20px
+}
+.last{
+    width:40%;
+    background:orange;
+    display:block;
+    border-radius:10px;
+}
+.box img{
+    border-radius:20px;
+    margin-top:10px
+}
+.round1{
+    margin-left:10px
+}

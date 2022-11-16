@@ -1,0 +1,7 @@
+*{
+    box-sizing:border-box;
+}
+.face_01{
+    display:flex;
+    flex-wrap:wrap;
+}
