@@ -1,0 +1,49 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color:#a2a2a2;
+}
+
+.learning{
+    max-width:650px;
+    display:flex;
+    background-color:white;
+    border-radius:10px;
+    border: solid 2px white;
+    width:100%;
+}
+.learning img {
+    width:166px;
+    height:250px;
+}
+.master{
+    max-width:650px;
+    display:flex;
+    flex-direction:row-reverse;
+    margin: 0;
+    justify-content: flex-end;
+    border: solid 2px white;
+    background-color:white;
+    border-radius:10px;
+    width:100%;
+    margin-top:20px;
+    justify-content: space-around;
+}
+.master img{
+    width:250px;
+    height:250px;
+}
+a{
+    color:#5ad67d;
+}
+h2{
+    color:#a2a2a2;
+    width:500px;
+    height:20px;
+    font-size:small;
+    font-weight: 200;
+}
+h1{
+    font-weight: 800;
+}
