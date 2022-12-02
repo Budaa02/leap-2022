@@ -148,14 +148,14 @@
 //     console.log(count);
 //     count = count + 1;
 // }
-let input = Number(prompt("Give a number"));
-let count = 1;
-let sum = 0;
+// let input = Number(prompt("Give a number"));
+// let count = 0;
+// let sum = 0;
 
-while (count <= input) {
-    count =  count + 1;
-    sum = sum + count;
-    console.log(count);
-    console.log(sum);
+// while (count < input) {
+//     count =  count + 1;
+//     sum = sum + count;
+//     console.log(count);
     
-}
+// }
+// console.log(sum);
