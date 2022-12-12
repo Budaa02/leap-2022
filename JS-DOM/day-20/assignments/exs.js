@@ -59,7 +59,7 @@ const newContent = document.createTextNode("Манай сайтад тавтай
 newDiv.appendChild(newContent);
 const main = document.getElementsByTagName("body");
 const h1 = document.querySelector("h1");
-h1.appendChild(newDiv);
+h1  .appendChild(newDiv);
 
 
 
