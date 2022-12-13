@@ -2,3 +2,9 @@ h1 {
     background:orange;
     text-align:center;
 }
+.box {
+    display:none;
+}
+.box_test{
+    display:none;
+}

@@ -37,14 +37,14 @@
 // console.log(registerButton);
 // registerButton.disabled = true;
 
-let gegeerel = document.getElementById("gegeerel");
-let color = "green"
-function changeBackgroundColorGreen() {
-    gegeerel.style = "background-color: green"
-}
-function changeBackgroundColorWhite() {
-    gegeerel.style = "background-color: white"
-}
+// let gegeerel = document.getElementById("gegeerel");
+// let color = "green"
+// function changeBackgroundColorGreen() {
+//     gegeerel.style = "background-color: green"
+// }
+// function changeBackgroundColorWhite() {
+//     gegeerel.style = "background-color: white"
+// }
 // function changeColors() {
 //     console.log("clicked");
 //     if (color === "green") {
@@ -56,12 +56,16 @@ function changeBackgroundColorWhite() {
 //     }
 // }
 // gegeerel.addEventListener("click", changeColors);
+
+// let a = document.getElementsByClassName("box")
+// let ab = document.getElementsByClassName("box_test")
 function changeBackgroundColor () {
-    gegeerel.style = "background-color:red;"
-    gegeerel.style = "background-color:green;"
+    document.getElementsByClassName("box")[0].style = "background-color:red; display:block"
+    document.getElementsByClassName("box_test")[0].style = "background-color:green; display:block"
 }
 
 gegeerel.addEventListener("click", changeBackgroundColor)
+console.log(document.getElementsByClassName("box")[0])
 
 
 
