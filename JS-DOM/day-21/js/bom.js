@@ -40,16 +40,16 @@ function runTimerInterval () {
 
 }
 
-function startInterval() {
-    let now = new Date();
-    let myTimer = document.getElementById("myTimer");
-    let hour = now.getHours();
-    let minute = now.getMinutes();
-    let second = now.getSeconds();
-    let d = now.getMilliseconds();
-    myTimer.innerHTML = `${hour} : ${minute} : ${second}: ${d}`;
-    // console.log(counter);
-    // counter++;
-}
+// function startInterval() {
+//     let now = new Date();
+//     let myTimer = document.getElementById("myTimer");
+//     let hour = now.getHours();
+//     let minute = now.getMinutes();
+//     let second = now.getSeconds();
+//     let d = now.getMilliseconds();
+//     myTimer.innerHTML = `${hour} : ${minute} : ${second}: ${d}`;
+//     // console.log(counter);
+//     // counter++;
+// }
 
 

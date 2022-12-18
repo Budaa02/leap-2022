@@ -1,3 +1,10 @@
+//1 dasgal 
+
+
+
+
+
+
 // 3 dasgal 
 // let a = Number(prompt("duriin too ognuu7"))
 
